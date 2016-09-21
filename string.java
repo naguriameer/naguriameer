@@ -1,13 +1,15 @@
 import java.io.*;
-class Solution1 {
-	public static void main(String []args)
-	public String missingChar(String s, int n) {
-		String str = new String("");
-		str = s.substring(0,n); 
-		str += s.substring(n+1);
-		return str;	
-	}
+import java.util.Scanner;
+public class string
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+String str;
+System.out.println("Enter the string");
+str=s.nextLine(); 
+System.out.println("string is"+str);
+int length=str.length();
+System.out.println("String length is"+length);
 }
-
-   
-
+}
